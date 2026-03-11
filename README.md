@@ -1,6 +1,8 @@
 # **Projeto de ELT**
 ### Projeto desenvolvido como estudo durante a live do jornada de dados com o intuito de praticar os conhecimentos em extração, carregamento e transformação de dados de ponta a ponta.
 
+*Link do projeto original: https://github.com/lvgalvao/data-engineering-roadmap/tree/main/00-imersao-jornada*
+
 <img src=img/img1.jpg width="100%">
 
 
