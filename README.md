@@ -14,14 +14,14 @@
  
  ### **Nuvem**
  - Criado ambiente free tier para storage utilizando supabase;
- - Upload das bases em parquet para o ambiente virtual.
+ - Upload das bases em parquet para o storage do Supabase.
 
 
 ## **2) Extração de dados**
-- Criado conexão em python utilizando boto3 para simular conexão com DataLake AWS no SupaBase;
+- Criado conexão em python utilizando boto3 para simular conexão com DataLake AWS, porém utilizando SupaBase;
 - Download dos arquivos Parquet utilizando looping for para automatizar;
 - Conversão dos arquivos em DataFrames com Pandas.
 
 
 ## **3) Load**
-- Carregamento dos arquivos no PostgreSQL utilizando looping for para automação. Dados ainda sem processamento.
+- Carregamento dos arquivos no PostgreSQL utilizando looping for para automação. Dados carregados no PostreSQL ainda sem transformações.
