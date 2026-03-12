@@ -1,0 +1,19 @@
+# Arquivo de perfil dbt
+# IMPORTANTE: Este arquivo normalmente fica em ~/.dbt/profiles.yml
+# Mas incluímos aqui como referência
+
+ecommerce:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: aws-0-us-west-2.pooler.supabase.com
+      user: postgres.kstnzjhxitamrrrwlthm
+      password: "KmCVRm7g2CP3XxYX"
+      port: 5432
+      dbname: postgres
+      schema: public
+      threads: 4
+      keepalives_idle: 0
+      connect_timeout: 10
+      search_path: "public"

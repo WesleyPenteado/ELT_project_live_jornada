@@ -1,2 +1,5 @@
 csv
 parquet
+logs
+ecommerce/logs/
+ecommerce/target/

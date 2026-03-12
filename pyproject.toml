@@ -13,7 +13,9 @@ dependencies = [
     "sqlalchemy (>=2.0.48,<3.0.0)",
     "psycopg2-binary (>=2.9.11,<3.0.0)",
     "pyarrow (>=23.0.1,<24.0.0)",
-    "pandas (>=3.0.1,<4.0.0)"
+    "pandas (>=3.0.1,<4.0.0)",
+    "dbt-core (>=1.11.7,<2.0.0)",
+    "dbt-postgres (>=1.10.0,<2.0.0)"
 ]
 
 
