@@ -10,9 +10,8 @@
 ### **Local**
  - Definido o local de trabalho na pasta local
  - Configurado Github, Pyenv e ambiente virtual (Poetry)
- - Utilizado jupyter notebook para treino
  
- ### **Nuvem**
+ ### **Cloud**
  - Criado ambiente free tier para storage utilizando supabase;
  - Upload das bases em parquet para o storage do Supabase.
 
@@ -25,3 +24,8 @@
 
 ## **3) Load**
 - Carregamento dos arquivos no PostgreSQL utilizando looping for para automação. Dados carregados no PostreSQL ainda sem transformações.
+
+
+## **4) Transformation utilizando PRD + DBT + copilot agent**
+- Utilizado arquitetura medalhão para manter a qualidade dos dados disponibilizados;
+- Aplicado conceito de DATA MART atendendo as necessidades específicas das áreas de pricing, sales e customer success.

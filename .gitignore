@@ -5,3 +5,4 @@ logs
 ecommerce/logs/
 ecommerce/target/
 .env
+dash.pbix
