@@ -1,9 +1,3 @@
--- ============================================
--- CAMADA BRONZE: Vendas (Dados Brutos)
--- ============================================
--- Conceito: Primeira camada da arquitetura Medalhão
--- Objetivo: Capturar dados exatamente como vêm da fonte
-
 SELECT
     id_venda,
     data_venda,
