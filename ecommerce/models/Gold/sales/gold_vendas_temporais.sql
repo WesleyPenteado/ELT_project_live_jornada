@@ -17,7 +17,8 @@ SELECT
     SUM(v.quantidade) AS quantidade_total,
     COUNT(DISTINCT v.id_venda) AS total_vendas,
     COUNT(DISTINCT v.id_cliente) AS total_clientes_unicos,
-    AVG(v.receita_total) AS ticket_medio
+    AVG(v.receita_total) AS ticket_medio,
+    canal_venda
 FROM {{ ref('silver_vendas') }} v
-GROUP BY 1, 2, 3, 4, 5, 6
+GROUP BY 1, 2, 3, 4, 5, 6, canal_venda
 ORDER BY data_venda DESC, v.hora_venda
