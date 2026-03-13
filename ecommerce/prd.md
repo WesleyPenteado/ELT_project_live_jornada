@@ -138,7 +138,7 @@ SELECT
 FROM {{ ref('bronze_vendas') }} v
 ```
 
-### vendas_temporais.sql (gold/sales/)
+### gold_vendas_temporais.sql
 
 ```sql
 SELECT
@@ -239,7 +239,7 @@ ORDER BY data_venda DESC, v.hora_venda
 
 ### Data Mart: Customer Success
 
-#### clientes_segmentacao.sql
+#### gold_clientes_segmentacao.sql
 
 **Pergunta de negocio:** Quais sao meus melhores clientes?
 
@@ -286,7 +286,7 @@ ORDER BY data_venda DESC, v.hora_venda
 
 ### Data Mart: Pricing
 
-#### precos_competitividade.sql
+#### gold_precos_competitividade.sql
 
 **Pergunta de negocio:** Como estamos em relacao a concorrencia?
 
