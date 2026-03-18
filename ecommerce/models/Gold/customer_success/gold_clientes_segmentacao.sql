@@ -23,6 +23,7 @@ SELECT
     rpc.ticket_medio,
     rpc.primeira_compra,
     rpc.ultima_compra,
+    rpc.ultima_compra - rpc.primeira_compra as diferenca_compra,
     CASE
         WHEN rpc.receita_total >= {{ var('segmentacao_vip_threshold', 10000) }} THEN 'VIP' 
         WHEN rpc.receita_total >= {{ var('segmentacao_top_tier_threshold', 5000) }} THEN 'TOP_TIER' 
